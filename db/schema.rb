@@ -11,17 +11,17 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160214015750) do
+ActiveRecord::Schema.define(version: 20160214023727) do
 
   create_table "matches", force: :cascade do |t|
-    t.boolean  "completed"
+    t.boolean  "completed",     default: false
     t.integer  "player1"
     t.integer  "player2"
     t.integer  "player1_score"
     t.integer  "player2_score"
     t.integer  "tournament_id"
-    t.datetime "created_at",    null: false
-    t.datetime "updated_at",    null: false
+    t.datetime "created_at",                    null: false
+    t.datetime "updated_at",                    null: false
   end
 
   add_index "matches", ["tournament_id"], name: "index_matches_on_tournament_id"
