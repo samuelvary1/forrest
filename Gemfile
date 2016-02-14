@@ -13,7 +13,7 @@ gem 'sqlite3'
 
 
 # To use ActiveModel has_secure_password
-# gem 'bcrypt', '~> 3.1.7'
+ gem 'bcrypt', '~> 3.1.7'
 
 # To use Jbuilder templates for JSON
 # gem 'jbuilder'
@@ -26,3 +26,6 @@ gem 'sqlite3'
 
 # To use debugger
 # gem 'ruby-debug19', :require => 'ruby-debug'
+
+# for ember	
+gem 'rack-cors', :require => 'rack/cors'
