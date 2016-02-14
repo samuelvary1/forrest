@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  completed: false
+  player1: 1
+  player2: 1
+  player1_score: 1
+  player2_score: 1
+  tournament_id: 
+
+two:
+  completed: false
+  player1: 1
+  player2: 1
+  player1_score: 1
+  player2_score: 1
+  tournament_id: 
